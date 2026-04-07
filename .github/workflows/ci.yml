@@ -17,8 +17,5 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Installer dépendances
-        run: npm install
-
       - name: Exécuter le code
         run: node index.js
